@@ -1,0 +1,19 @@
+<section class="mt-3">
+    <div class="container">
+        <div class="content">My Matches</div>
+        <div class="card shadow-lg " *ngFor="let pic of profiles">
+            <div class="col-md-3 align-items-center d-flex card-fluid">
+                <img style="width: 42px; height:55px;" src="{{pic.image}}" alt="" class="img-fluid">
+                <div class="card-body">
+                    <p class="h3">{{pic.name}}</p>
+                    <p style="white-space: normal;font-size: x-small;">{{pic.description}}</p>
+                    <div class="">
+                        <button class="btn btn-warning btn-sm" (click)="yesbtn(pic)">Yes</button>
+                        <button class="btn btn-outline-dark btn-rounded" (click)="nobtn(pic)">NO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<router-outlet></router-outlet>

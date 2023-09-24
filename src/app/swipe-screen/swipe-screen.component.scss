@@ -1,0 +1,103 @@
+.card {
+    box-shadow: 0 0;
+    padding: 17px;
+    margin: 15px;
+    width: 235px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: white;
+    background: linear-gradient(45deg, rgb(243, 242, 240), rgb(115, 204, 115));
+}
+
+.card-body {
+    padding-top: 20px;
+}
+
+
+.card-dummy {
+    box-shadow: 0 0;
+    padding: 17px;
+    margin: 5px;
+    width: 190px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: white;
+    // background: linear-gradient(45deg,orange,darkgreen);
+}
+
+.card-fluid {
+    width: inherit;
+}
+
+.img-fluid {
+    position: absolute;
+    max-width: -webkit-fill-available;
+    max-height: -webkit-fill-available;
+    margin-left: -15px;
+    margin-bottom: 160px;
+
+}
+
+.card-bodycontent {
+    margin-top: auto;
+    height: 85px;
+    width: 210px;
+    margin-left: -20px;
+    margin-right: 20px;
+    padding-top: -2px;
+    margin-bottom: -16px;
+}
+
+.shortlist {
+    padding-left: 3px;
+}
+
+.link {
+    color: blue;
+    font-size: xx-small;
+    padding-right: 9px;
+}
+
+.tag {
+    font-size: x-small;
+    margin-left: -10px !important;
+    border-top: 1px black;
+}
+
+.nri {
+    font-size: xx-small;
+    color: violet;
+}
+
+
+.btn {
+    width: 34px;
+    height: 25px;
+    padding: 0px !important;
+}
+
+.btn-tick {
+    width: 34px;
+    height: 25px;
+    padding: 0px !important;
+}
+
+.btn-warning {
+    background-color: orange;
+    border: 0;
+    font-size: x-large;
+    color: white;
+    border-radius: 0.7rem;
+}
+
+.btn-rounded {
+    background-color: white;
+    font-size: x-large;
+    border-radius: 21px;
+}
+
+
+.like {
+    padding-left: 11px;
+    font-weight: bold;
+}
